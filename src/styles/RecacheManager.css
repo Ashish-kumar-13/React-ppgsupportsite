@@ -1,0 +1,86 @@
+.recache-manager {
+  padding: 1rem 0;
+  width: 100%;
+}
+
+.recache-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+}
+
+.recache-form-section {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.recache-form {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.form-group label {
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  display: block;
+}
+
+.url-input-group {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.site-select {
+  flex: 2;
+  padding: 0.5rem;
+  border: 1px solid var(--medium-gray);
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.url-input {
+  flex: 1;
+  padding: 0.5rem;
+  border: 1px solid var(--medium-gray);
+  border-radius: 4px;
+  font-size: 0.875rem;
+}
+
+.quick-recache-links,
+.pkg-recache-links {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5rem;
+}
+
+.recache-link {
+  background: none;
+  border: none;
+  color: var(--secondary-blue);
+  text-decoration: underline;
+  cursor: pointer;
+  text-align: left;
+  padding: 0.25rem 0;
+  font-size: 0.875rem;
+}
+
+.recache-link:hover {
+  color: var(--primary-blue);
+}
+
+.pkg-recache-section {
+  max-height: 500px;
+  overflow-y: auto;
+}
+
+@media (max-width: 768px) {
+  .recache-grid {
+    grid-template-columns: 1fr;
+  }
+  
+  .url-input-group {
+    flex-direction: column;
+  }
+}

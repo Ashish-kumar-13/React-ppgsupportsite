@@ -1,0 +1,612 @@
+{
+  "default": {
+    "title": "Post-Gazette Staging sites",
+    "sites": [
+      {
+        "name": "pgestage.libercus.net",
+        "url": "http://pgestage.libercus.net",
+        "recycleParam": "pgestage.libercus.net"
+      },
+      {
+        "name": "pgev1stage.libercus.net",
+        "url": "http://pgev1stage.libercus.net",
+        "recycleParam": "pgev1stage.libercus.net"
+      },
+      {
+        "name": "ppgstage.libercus.net",
+        "url": "http://ppgstage.libercus.net",
+        "recycleParam": "ppgstage.libercus.net"
+      },
+      {
+        "name": "ppgstage2.libercus.net",
+        "url": "http://ppgstage2.libercus.net",
+        "recycleParam": "ppgstage2.libercus.net"
+      },
+      {
+        "name": "ppgstagemobile.libercus.net",
+        "url": "http://ppgstagemobile.libercus.net",
+        "recycleParam": "ppgstagemobile.libercus.net"
+      },
+      {
+        "name": "ppgplusstage.libercus.net",
+        "url": "http://ppgplusstage.libercus.net",
+        "recycleParam": "ppgplusstage.libercus.net"
+      },
+      {
+        "name": "pressstage.libercus.net",
+        "url": "http://pressstage.libercus.net",
+        "recycleParam": "pressstage.libercus.net"
+      },
+      {
+        "name": "powersourcestage.libercus.net",
+        "url": "http://powersourcestage.libercus.net",
+        "recycleParam": "powersourcestage.libercus.net"
+      },
+      {
+        "name": "All_Stage_Sites",
+        "url": "http://All_Stage_Sites",
+        "recycleParam": "all"
+      }
+    ],
+    "version": {
+      "current": "3.5.2.15044",
+      "lastChecked": "5:50:27.09"
+    },
+    "upgrades": [
+      {
+        "name": "ppgstagemobile",
+        "label": "PPG Stage Mobile Site Upgrade"
+      },
+      {
+        "name": "pressstage",
+        "label": "Press Stage Site Upgrade"
+      },
+      {
+        "name": "ppgplusstage",
+        "label": "PPG Plus Stage Site Upgrade"
+      },
+      {
+        "name": "powersourcestage",
+        "label": "Powersource Stage Site Upgrade"
+      },
+      {
+        "name": "ppgstage",
+        "label": "PPG Stage Site Upgrade"
+      },
+      {
+        "name": "pgestage",
+        "label": "PGE Stage Site Upgrade"
+      }
+    ]
+  },
+  "PPG Cluster": {
+    "Dev": {
+      "title": "Post-Gazette Dev sites",
+      "sites": [
+        {
+          "name": "ppgdev.libercus.net",
+          "url": "http://ppgdev.libercus.net",
+          "recycleParam": "ppgdev.libercus.net"
+        },
+        {
+          "name": "ppgdevmobile.libercus.net",
+          "url": "http://ppgdevmobile.libercus.net",
+          "recycleParam": "ppgdevmobile.libercus.net"
+        },
+        {
+          "name": "ppgplusdev.libercus.net",
+          "url": "http://ppgplusdev.libercus.net",
+          "recycleParam": "ppgplusdev.libercus.net"
+        },
+        {
+          "name": "powersourcedev.libercus.net",
+          "url": "http://powersourcedev.libercus.net",
+          "recycleParam": "powersourcedev.libercus.net"
+        },
+        {
+          "name": "pgdevagate.libercus.net",
+          "url": "http://pgdevagate.libercus.net",
+          "recycleParam": "pgdevagate.libercus.net"
+        },
+        {
+          "name": "All_Dev_Sites",
+          "url": "http://All_Dev_Sites",
+          "recycleParam": "all"
+        }
+      ],
+      "version": {
+        "current": "3.5.2.15044",
+        "lastChecked": "5:45:27.09"
+      },
+      "upgrades": [
+        {
+          "name": "ppgdevmobile",
+          "label": "Post-Gazette Dev Mobile Site Upgrade"
+        },
+        {
+          "name": "ppgplusdev",
+          "label": "Post-Gazette Plus Dev Site Upgrade"
+        },
+        {
+          "name": "powersourcedev",
+          "label": "Powersource Dev Site Upgrade"
+        },
+        {
+          "name": "ppgdev",
+          "label": "Post-Gazette Dev Site Upgrade"
+        },
+        {
+          "name": "ppgagatedev",
+          "label": "Post-Gazette Agate Dev Site Upgrade"
+        }
+      ]
+    },
+    "Edit": {
+      "title": "Post-Gazette Edit sites",
+      "sites": [
+        {
+          "name": "pgblogsedit.libercus.net",
+          "url": "http://pgblogsedit.libercus.net",
+          "recycleParam": "pgblogsedit.libercus.net"
+        },
+        {
+          "name": "pgedit.libercus.net",
+          "url": "http://pgedit.libercus.net",
+          "recycleParam": "pgedit.libercus.net"
+        },
+        {
+          "name": "pressedit.libercus.net",
+          "url": "http://pressedit.libercus.net",
+          "recycleParam": "pressedit.libercus.net"
+        },
+        {
+          "name": "pressprinttest.libercus.net",
+          "url": "http://pressprinttest.libercus.net",
+          "recycleParam": "pressprinttest.libercus.net"
+        },
+        {
+          "name": "ppgprinttest.libercus.net",
+          "url": "http://ppgprinttest.libercus.net",
+          "recycleParam": "ppgprinttest.libercus.net"
+        },
+        {
+          "name": "All_Edit_Sites",
+          "url": "http://All_Edit_Sites",
+          "recycleParam": "all"
+        }
+      ],
+      "version": {
+        "current": "3.5.2.15044",
+        "lastChecked": "5:55:27.09"
+      },
+      "upgrades": [
+        {
+          "name": "pgblogsedit",
+          "label": "pgblogsedit.libercus.net site Upgrade"
+        },
+        {
+          "name": "pgedit",
+          "label": "pgedit.libercus.net site Upgrade"
+        },
+        {
+          "name": "pressedit",
+          "label": "pressedit.libercus.net site Upgrade"
+        },
+        {
+          "name": "pressprinttest",
+          "label": "pressprinttest.libercus.net site Upgrade"
+        },
+        {
+          "name": "ppgprinttest",
+          "label": "ppgprinttest.libercus.net site Upgrade"
+        }
+      ]
+    },
+    "Image": {
+      "title": "Post-Gazette Image sites",
+      "sites": [
+        {
+          "name": "m.post-gazette.com",
+          "url": "http://m.post-gazette.com",
+          "recycleParam": "m.post-gazette.com"
+        },
+        {
+          "name": "www.post-gazette.com",
+          "url": "http://www.post-gazette.com",
+          "recycleParam": "www.post-gazette.com"
+        },
+        {
+          "name": "All_Image_Sites",
+          "url": "http://All_Image_Sites",
+          "recycleParam": "all"
+        }
+      ],
+      "version": {
+        "current": "3.5.2.15044",
+        "lastChecked": "5:55:27.09"
+      },
+      "upgrades": [
+        {
+          "name": "ppgmobileimage",
+          "label": "m.post-gazette.com image site Upgrade"
+        },
+        {
+          "name": "ppgimage",
+          "label": "www.post-gazette.com image site Upgrade"
+        },
+        {
+          "name": "varnish",
+          "label": "Restart PPG Varnish Servers"
+        }
+      ]
+    },
+    "Stage": {
+      "title": "Post-Gazette Staging sites",
+      "sites": [
+        {
+          "name": "pgestage.libercus.net",
+          "url": "http://pgestage.libercus.net",
+          "recycleParam": "pgestage.libercus.net"
+        },
+        {
+          "name": "pgev1stage.libercus.net",
+          "url": "http://pgev1stage.libercus.net",
+          "recycleParam": "pgev1stage.libercus.net"
+        },
+        {
+          "name": "ppgstage.libercus.net",
+          "url": "http://ppgstage.libercus.net",
+          "recycleParam": "ppgstage.libercus.net"
+        },
+        {
+          "name": "ppgstage2.libercus.net",
+          "url": "http://ppgstage2.libercus.net",
+          "recycleParam": "ppgstage2.libercus.net"
+        },
+        {
+          "name": "ppgstagemobile.libercus.net",
+          "url": "http://ppgstagemobile.libercus.net",
+          "recycleParam": "ppgstagemobile.libercus.net"
+        },
+        {
+          "name": "ppgplusstage.libercus.net",
+          "url": "http://ppgplusstage.libercus.net",
+          "recycleParam": "ppgplusstage.libercus.net"
+        },
+        {
+          "name": "pressstage.libercus.net",
+          "url": "http://pressstage.libercus.net",
+          "recycleParam": "pressstage.libercus.net"
+        },
+        {
+          "name": "powersourcestage.libercus.net",
+          "url": "http://powersourcestage.libercus.net",
+          "recycleParam": "powersourcestage.libercus.net"
+        },
+        {
+          "name": "All_Stage_Sites",
+          "url": "http://All_Stage_Sites",
+          "recycleParam": "all"
+        }
+      ],
+      "version": {
+        "current": "3.5.2.15044",
+        "lastChecked": "5:50:27.09"
+      },
+      "upgrades": [
+        {
+          "name": "ppgstagemobile",
+          "label": "PPG Stage Mobile Site Upgrade"
+        },
+        {
+          "name": "pressstage",
+          "label": "Press Stage Site Upgrade"
+        },
+        {
+          "name": "ppgplusstage",
+          "label": "PPG Plus Stage Site Upgrade"
+        },
+        {
+          "name": "powersourcestage",
+          "label": "Powersource Stage Site Upgrade"
+        },
+        {
+          "name": "ppgstage",
+          "label": "PPG Stage Site Upgrade"
+        },
+        {
+          "name": "pgestage",
+          "label": "PGE Stage Site Upgrade"
+        }
+      ]
+    },
+    "Live": {
+      "title": "Post-Gazette Live sites",
+      "sites": [
+        {
+          "name": "m.post-gazette.com",
+          "url": "http://m.post-gazette.com",
+          "recycleParam": "m.post-gazette.com"
+        },
+        {
+          "name": "pgev1.post-gazette.com",
+          "url": "http://pgev1.post-gazette.com",
+          "recycleParam": "pgev1.post-gazette.com"
+        },
+        {
+          "name": "pge.post-gazette.com",
+          "url": "http://pge.post-gazette.com",
+          "recycleParam": "pge.post-gazette.com"
+        },
+        {
+          "name": "pitt.post-gazette.com",
+          "url": "http://pitt.post-gazette.com",
+          "recycleParam": "pitt.post-gazette.com"
+        },
+        {
+          "name": "press.post-gazette.com",
+          "url": "http://press.post-gazette.com",
+          "recycleParam": "press.post-gazette.com"
+        },
+        {
+          "name": "powersource.post-gazette.com",
+          "url": "http://powersource.post-gazette.com",
+          "recycleParam": "powersource.post-gazette.com"
+        },
+        {
+          "name": "sportsblogs.post-gazette.com",
+          "url": "http://sportsblogs.post-gazette.com",
+          "recycleParam": "sportsblogs.post-gazette.com"
+        },
+        {
+          "name": "www.post-gazette.com",
+          "url": "http://www.post-gazette.com",
+          "recycleParam": "www.post-gazette.com"
+        },
+        {
+          "name": "pgprdagate.libercus.net",
+          "url": "http://pgprdagate.libercus.net",
+          "recycleParam": "pgprdagate.libercus.net"
+        },
+        {
+          "name": "liber.post-gazette.com",
+          "url": "http://liber.post-gazette.com",
+          "recycleParam": "liber.post-gazette.com"
+        },
+        {
+          "name": "All_Web_Sites",
+          "url": "http://All_Web_Sites",
+          "recycleParam": "all"
+        }
+      ],
+      "version": {
+        "current": "3.5.2.15044",
+        "lastChecked": "6:00:27.07"
+      },
+      "upgrades": [
+        {
+          "name": "ppgmobile",
+          "label": "m.post-gazette.com site Upgrade"
+        },
+        {
+          "name": "press",
+          "label": "press.post-gazette.com site Upgrade"
+        },
+        {
+          "name": "sportsblogs",
+          "label": "sportsblogs.post-gazette.com site Upgrade"
+        },
+        {
+          "name": "ppglive",
+          "label": "www.post-gazette.com site Upgrade"
+        },
+        {
+          "name": "powersource",
+          "label": "powersource.post-gazette.com site Upgrade"
+        },
+        {
+          "name": "ppgagatelive",
+          "label": "pgprdagate.libercus.net site Upgrade"
+        },
+        {
+          "name": "pgelive",
+          "label": "pge.post-gazette.com (PF3) site Upgrade"
+        },
+        {
+          "name": "varnish",
+          "label": "Restart PPG Varnish Servers"
+        }
+      ]
+    },
+    "Proc": {
+      "title": "PPGProc Upgrade Page",
+      "sites": [],
+      "version": {
+        "current": "3.5.2.15044",
+        "lastChecked": ""
+      },
+      "upgrades": [
+        {
+          "name": "LibExport",
+          "label": "PPGProc LibExport Upgrade"
+        },
+        {
+          "name": "LibImport",
+          "label": "PPGProc LibImport Upgrade"
+        },
+        {
+          "name": "LibConvert",
+          "label": "PPGProc LibConvert Upgrade"
+        },
+        {
+          "name": "PDFMaker",
+          "label": "PPGProc PDFMaker Upgrade"
+        },
+        {
+          "name": "PDFService",
+          "label": "PPGProc PDFService Upgrade"
+        },
+        {
+          "name": "IndexService",
+          "label": "PPGProc IndexService Upgrade"
+        },
+        {
+          "name": "APLibImport",
+          "label": "PPGProc AP LibImport Upgrade"
+        },
+        {
+          "name": "LibAdConvert",
+          "label": "PPGProc LibAdConvert Upgrade"
+        },
+        {
+          "name": "LibVideoConvert",
+          "label": "PPGProc LibVideoConvert Upgrade"
+        },
+        {
+          "name": "LibAdImport",
+          "label": "PPGProc LibAdImport Upgrade"
+        },
+        {
+          "name": "GenIndex",
+          "label": "PPGProc GenIndex Upgrade(Newly Added)"
+        },
+        {
+          "name": "LibMailer",
+          "label": "PPGProc LibMailer Upgrade(Newly Added)"
+        },
+        {
+          "name": "LibMailManager",
+          "label": "PPGProc LibMailManager Upgrade(Newly Added)"
+        },
+        {
+          "name": "LibMgr",
+          "label": "PPGProc LibMgr Upgrade(Newly Added)"
+        },
+        {
+          "name": "LibSendMail",
+          "label": "PPGProc LibSendMail Upgrade(Newly Added)"
+        },
+        {
+          "name": "LibTool",
+          "label": "PPGProc LibTool Upgrade(Newly Added)"
+        },
+        {
+          "name": "LibConvertAP",
+          "label": "PPGProc LibConvert AP Upgrade(Newly Added)"
+        },
+        {
+          "name": "LibConvertWP",
+          "label": "PPGProc LibConvert WP Upgrade(Newly Added)"
+        },
+        {
+          "name": "WPLibImport",
+          "label": "PPGProc WP LibImport Upgrade(Newly Added)"
+        },
+        {
+          "name": "LibTriggerEventProcessor",
+          "label": "PPGProc LibTriggerEventProcessor Upgrade(Newly Added)"
+        },
+        {
+          "name": "PPGProc02PDFService",
+          "label": "PPGProc02 (PrintTest) PDFService Upgrade"
+        }
+      ]
+    },
+    "Recache": {
+      "title": "PPG Recache",
+      "sites": [],
+      "version": {
+        "current": "",
+        "lastChecked": ""
+      },
+      "recacheOptions": [
+        {
+          "name": "recache",
+          "label": "Recache Entire Desktop Site"
+        },
+        {
+          "name": "recachehome",
+          "label": "Recache Desktop Homepage"
+        },
+        {
+          "name": "mobilerecache",
+          "label": "Recache Entire Mobile Site"
+        },
+        {
+          "name": "recachehomemobile",
+          "label": "Recache Mobile Homepage"
+        },
+        {
+          "name": "recachepowersource",
+          "label": "Recache Entire Powersource Site"
+        },
+        {
+          "name": "recachepowersourcehome",
+          "label": "Recache Powersource Homepage"
+        },
+        {
+          "name": "recachestage",
+          "label": "Recache Entire Stage Site"
+        },
+        {
+          "name": "recachestagehome",
+          "label": "Recache Stage Homepage"
+        },
+        {
+          "name": "flatcache",
+          "label": "Flatcache Recache"
+        },
+        {
+          "name": "recacheliber",
+          "label": "Recache liber.post-gazette.com"
+        }
+      ],
+      "siteOptions": [
+        "m.post-gazette.com/",
+        "pgev1.post-gazette.com/",
+        "pge.post-gazette.com/",
+        "pitt.post-gazette.com/",
+        "press.post-gazette.com/",
+        "powersource.post-gazette.com/",
+        "sportsblogs.post-gazette.com/",
+        "www.post-gazette.com/",
+        "pgprdagate.libercus.net/",
+        "liber.post-gazette.com/",
+        "pgestage.libercus.net/",
+        "pgev1stage.libercus.net/",
+        "ppgstage.libercus.net/",
+        "ppgstage2.libercus.net/",
+        "ppgstagemobile.libercus.net/",
+        "ppgplusstage.libercus.net/",
+        "pressstage.libercus.net/",
+        "powersourcestage.libercus.net/"
+      ],
+      "pkgRecache": [
+        "m.post-gazette.com",
+        "pgev1.post-gazette.com",
+        "pge.post-gazette.com",
+        "pitt.post-gazette.com",
+        "press.post-gazette.com",
+        "powersource.post-gazette.com",
+        "sportsblogs.post-gazette.com",
+        "www.post-gazette.com",
+        "pgprdagate.libercus.net",
+        "liber.post-gazette.com",
+        "pgestage.libercus.net",
+        "pgev1stage.libercus.net",
+        "ppgstage.libercus.net",
+        "ppgstage2.libercus.net",
+        "ppgstagemobile.libercus.net",
+        "ppgplusstage.libercus.net",
+        "pressstage.libercus.net",
+        "powersourcestage.libercus.net",
+        "ppgdev.libercus.net",
+        "ppgdevmobile.libercus.net",
+        "ppgplusdev.libercus.net",
+        "powersourcedev.libercus.net",
+        "pgdevagate.libercus.net"
+      ],
+      "upgrades": []
+    }
+  }
+}

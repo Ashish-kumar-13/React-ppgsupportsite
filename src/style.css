@@ -1,0 +1,228 @@
+/* ########################## Blandet ##########################  */
+
+/* General Felt styling */
+.form_input {
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	font-size: 12px;
+	border-color:#CFA651;
+	border-width:1px;
+	border-style:solid;
+	width:205px;
+}
+
+a.menupunkt:hover {
+  background-color: #4281A6;
+  display: block;
+  color: #000000;
+}
+
+A:link {
+
+	COLOR: #2B2B2B;
+}
+A:visited {
+	COLOR:  #2B2B2B;
+}
+A:active {
+	COLOR:  #2B2B2B;
+}
+A:hover {
+	COLOR: #2B2B2B;
+}
+td {
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	font-size: 12px;
+	color: #272727;
+}
+body {
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	font-size: 12px;
+	color: #272727;
+	margin: 0px;
+	background-repeat: repeat-y;
+}
+
+.input {
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	font-size: 12px;
+}
+.menu {
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+	color: #FFFFFF;
+}
+.overskrift {
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	font-size: 12px;
+	font-weight: bold;
+}
+.height {
+	margin-top: 5px;
+	margin-bottom: 5px;
+
+}
+p {
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	font-size: 12px;
+	color: #272727;
+	margin-right: 10px;
+}
+#bunntekst tr td, #bunntekst tr td table tr td {
+	font-size:10px;
+}
+
+/* Annonser bestil  */
+#annonsebestil_overskrift {
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	font-size:15pt;
+	color: #272727;
+}
+
+#rapporter_inlegg {
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	background-color:#e3e3e3;
+	margin:0px;
+	padding:5px;
+}
+
+
+/* ########################## XML Sport sektion ##########################  */
+
+#xml_overskrift {
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	font-size:16px;
+	background-color: #83A3BB;
+	margin-bottom:5px;
+	font-weight: bold;
+}
+
+#xml_lille_overskrift {
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+	background-color: #CDCDCD;
+	font-weight: bold;
+}
+
+#xml_text {
+	font-family: Arial, Tahoma, Verdana, sans-serif;
+}
+
+#artikel_links a{
+	color:blue;
+	text-decoration:underline;
+	font-family:verdana,arial,sans-serif;
+}
+
+/* ########################## Ekstra til portaldelen  ##########################  */
+
+strong{
+	color: #4F4F4F;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 12px;
+}
+
+h2{
+	color: #069;
+	font-family: Calibri;
+	font-weight: bold;
+	font-size: 15px;
+}
+
+a:hover {
+	color: red;
+	text-decoration: underline;
+}
+
+
+
+
+
+
+
+.main {
+	width:1000px;
+}
+
+select, input {
+	background-color:#ffffaa;
+}
+
+
+.button {
+	background-color:grey;
+}
+
+.triplet {
+/*	max-width:33%;*/
+	padding:10px;
+	display:inline-block;
+	vertical-align:top;
+	float:left;
+}
+
+.console {
+	width:500px;
+	height:500px;
+	overflow:auto;
+	border:1px solid grey;
+	background-color:black;
+	color:white;
+}
+
+.consoleheader {
+	background-color:#e3dfce;
+	height:15px;
+	font-weight:
+	bold;
+	padding:5px;
+	border-bottom:1px solid grey; 
+	color:#000000;
+}
+
+/* @group Blink */
+
+.blink {
+    -webkit-animation: blink .75s linear infinite;
+    -moz-animation: blink .75s linear infinite;
+    -ms-animation: blink .75s linear infinite;
+    -o-animation: blink .75s linear infinite;
+    animation: blink .75s linear infinite;
+}
+
+@-webkit-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-moz-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-ms-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@-o-keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+@keyframes blink {
+    0% { opacity: 1; }
+    50% { opacity: 1; }
+    50.01% { opacity: 0; }
+    100% { opacity: 0; }
+}
+
+/* @end */
