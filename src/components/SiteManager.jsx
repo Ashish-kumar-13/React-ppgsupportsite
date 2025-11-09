@@ -12,11 +12,11 @@ const SiteManager = ( {menuData: [selectedMenuData, consoleData]}) => {
   }
 
   const { title, sites, version, upgrades } = currentData;
-  var count = 0;
+
   const handleRecycle = (site) => {
     if (window.confirm('This will recycle application pools for this site on all relevant servers. \n\n Are you sure you want to do this?')) {
       // console.log(`Recycling ${site}`);
-      count++;
+
       consoleData(`Recycling ${site}...\nOperation completed successfully.`);
     }
   };
@@ -24,13 +24,11 @@ const SiteManager = ( {menuData: [selectedMenuData, consoleData]}) => {
   const handleUpgrade = (site) => {
     if (window.confirm('This will upgrade this site to the latest version of Libercus. Are you sure you want to do this?')) {
       // console.log(`Upgrading ${site}`);
-      count++;
+
       consoleData(`Upgrading ${site}...\nUpgrade completed successfully.`);
     }
   };
-  useEffect(() => {
-    consoleData(""); // clear console when SiteManager first loads
-  }, []);
+  
 
   return (
     <div className="site-manager">
