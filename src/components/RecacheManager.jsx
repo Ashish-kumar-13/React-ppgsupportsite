@@ -3,23 +3,19 @@ import React, { useState } from 'react';
 const RecacheManager = ({menuData1:[menuData, consoleData]}) => {
   const [selectedSite, setSelectedSite] = useState('m.post-gazette.com/');
   const [urlPath, setUrlPath] = useState('');
-  var count = 0;
   const handleRecacheSubmit = (e) => {
     e.preventDefault();
     // console.log(`Recaching ${selectedSite}${urlPath}`);
-    count++;
     consoleData(`Recaching ${selectedSite}${urlPath}...\nRecache request submitted successfully.`);
   };
 
   const handleQuickRecache = (action) => {
     // console.log(`Quick recache: ${action}`);
-    count++;
     consoleData(`Quick recache: ${action}...\nRecache request submitted successfully.`);
   };
 
   const handlePkgRecache = (site) => {
     // console.log(`PKG recache: ${site}`);
-    count++;
     consoleData(`PKG recache: ${site}...\nRecache request submitted successfully.`);
   };
 
