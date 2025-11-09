@@ -15,6 +15,7 @@ const Console = ({cD}) => {
         <div className="console-body">
           <pre className="console-text">
             LIBERCUS&gt;<span className="cursor">_</span><span>{cD}</span>
+            <span>Adding new change</span>
           </pre>
         </div>
       </div>
