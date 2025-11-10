@@ -1,20 +1,24 @@
-import React from 'react';
-import menuData from '../data/menuData.json';
-import RecacheManager from './RecacheManager';
+import React from "react";
+import menuData from "../data/menuData.json";
+import RecacheManager from "./RecacheManager";
 import { useEffect } from "react";
 
-const SiteManager = ( {menuData: [selectedMenuData, consoleData]}) => {
+const SiteManager = ({ menuData: [selectedMenuData, consoleData] }) => {
   const currentData = selectedMenuData || menuData.default;
-  
+
   // Special handling for Recache section
-  if (currentData.title === 'PPG Recache') {
-    return <RecacheManager menuData1={[currentData,consoleData]} />;
+  if (currentData.title === "PPG Recache") {
+    return <RecacheManager menuData1={[currentData, consoleData]} />;
   }
 
   const { title, sites, version, upgrades } = currentData;
 
   const handleRecycle = (site) => {
-    if (window.confirm('This will recycle application pools for this site on all relevant servers. \n\n Are you sure you want to do this?')) {
+    if (
+      window.confirm(
+        "This will recycle application pools for this site on all relevant servers. \n\n Are you sure you want to do this?"
+      )
+    ) {
       // console.log(`Recycling ${site}`);
 
       consoleData(`Recycling ${site}...\nOperation completed successfully.`);
@@ -22,13 +26,16 @@ const SiteManager = ( {menuData: [selectedMenuData, consoleData]}) => {
   };
 
   const handleUpgrade = (site) => {
-    if (window.confirm('This will upgrade this site to the latest version of Libercus. Are you sure you want to do this?')) {
+    if (
+      window.confirm(
+        "This will upgrade this site to the latest version of Libercus. Are you sure you want to do this?"
+      )
+    ) {
       // console.log(`Upgrading ${site}`);
 
       consoleData(`Upgrading ${site}...\nUpgrade completed successfully.`);
     }
   };
-  
 
   return (
     <div className="site-manager">
@@ -41,10 +48,15 @@ const SiteManager = ( {menuData: [selectedMenuData, consoleData]}) => {
               <div className="sites-table">
                 {sites.map((site, index) => (
                   <div key={index} className="site-row">
-                    <a href={site.url} target="_blank" rel="noopener noreferrer" className="site-link">
+                    <a
+                      href={site.url}
+                      target="_blank"
+                      rel="noopener noreferrer"
+                      className="site-link"
+                    >
                       {site.name}
                     </a>
-                    <button 
+                    <button
                       className="btn btn-secondary"
                       onClick={() => handleRecycle(site.name)}
                     >
@@ -54,14 +66,18 @@ const SiteManager = ( {menuData: [selectedMenuData, consoleData]}) => {
                 ))}
               </div>
             </div>
-            
+
             <div className="card version-info">
               <div className="version-text">
-                <p><strong>Current release version:</strong> {version.current}</p>
-                <p><strong>Last checked:</strong> {version.lastChecked}</p>
+                <p>
+                  <strong>Current release version:</strong> {version.current}
+                </p>
+                <p>
+                  <strong>Last checked:</strong> {version.lastChecked}
+                </p>
               </div>
             </div>
-            
+
             <div className="card">
               <h2 className="section-title">Site Upgrades</h2>
               <div className="upgrade-buttons">
